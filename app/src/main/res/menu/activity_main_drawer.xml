@@ -6,24 +6,24 @@
     <group android:checkableBehavior="single" android:id="@+id/g1">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home"
+            android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_category"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_category"
             android:title="@string/menu_category" />
         <item
             android:id="@+id/nav_priority"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_priority"
             android:title="@string/menu_priority" />
 
         <item
             android:id="@+id/nav_status"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_status"
             android:title="@string/menu_status" />
         <item
             android:id="@+id/nav_note"
-            android:icon="@drawable/note"
+            android:icon="@drawable/ic_note"
             android:title="@string/menu_note" />
     </group>
     <group android:checkableBehavior="single" android:id="@+id/g2">
@@ -34,11 +34,11 @@
                 <group>
                     <item
                         android:id="@+id/nav_EDProfile"
-                        android:icon="@drawable/profile"
+                        android:icon="@drawable/ic_acc"
                         android:title="@string/menu_editAcc"/>
                     <item
                         android:id="@+id/nav_changepass"
-                        android:icon="@drawable/privacy"
+                        android:icon="@drawable/ic_setting"
                         android:title="@string/menu_pass"/>
                     <item
                         android:id="@+id/nav_logout"

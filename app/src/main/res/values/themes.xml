@@ -15,7 +15,12 @@
     </style>
     <style name="Theme.NoteManageSystem.NoActionBar">
         <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>x
+    </style>
+
+    <style name="abc">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/loading</item>
     </style>
 
     <style name="Theme.NoteApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

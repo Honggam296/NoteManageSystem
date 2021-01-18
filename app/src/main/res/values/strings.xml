@@ -43,6 +43,7 @@
     <string name="cancel">cancel</string>
     <string name="add">add</string>
     <string name="register">Register</string>
+    <string name="registerlogi">No account yet? Create one</string>
     <string name="btnLogin">Login</string>
     <string name="EnterYourFirstName">FirstName</string>
     <string name="EnterYourLastName">LastName</string>
