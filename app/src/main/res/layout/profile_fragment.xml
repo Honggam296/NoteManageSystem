@@ -5,10 +5,10 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="..profile.profile">
+    tools:context=".model.profile.profile">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="346dp"
-        android:layout_height="728dp"
+        android:layout_height="300dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,19 +45,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
             <EditText
-                android:id="@+id/etEditEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Email"
-                android:inputType="textPersonName" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
-            <EditText
                 android:id="@+id/etEditLastName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,27 +52,41 @@
                 android:hint="Last Name"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
-
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
-            <Button
-                android:id="@+id/btnConfirmEditProfile"
+            <EditText
+                android:id="@+id/etEditEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Confirm" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
-            <Button
-                android:id="@+id/btnReturnHome"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Home" />
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btnConfirmEditProfile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <Button
+        android:id="@+id/btnReturnHome"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
 </androidx.constraintlayout.widget.ConstraintLayout>
