@@ -36,7 +36,7 @@ public class priority_dialog extends DialogFragment {
         txt = (EditText)view.findViewById(R.id.inputPriority);
         if(name.equals("-1")){  // when click add
             builder.setView(view)
-                    .setTitle("Priority From").setNegativeButton("close", new DialogInterface.OnClickListener() {
+                    .setTitle("Add Priority").setNegativeButton("close", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
 

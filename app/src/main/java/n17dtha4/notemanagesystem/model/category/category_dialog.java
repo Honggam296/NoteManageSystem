@@ -6,23 +6,15 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatDialogFragment;
 import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.Fragment;
-
-import n17dtha4.notemanagesystem.R;
-import n17dtha4.notemanagesystem.model.priority.priority_dialog;
-import n17dtha4.notemanagesystem.model.priority.priority_db;
 
 import java.util.Date;
+
+import n17dtha4.notemanagesystem.R;
 
 public class category_dialog extends DialogFragment {
     public  interface  dialog_Add_Category_Listener{
@@ -46,7 +38,7 @@ public class category_dialog extends DialogFragment {
 
         if(name.equals("-1")){  // when click add
             builder.setView(view)
-                    .setTitle("Category From").setNegativeButton("close", new DialogInterface.OnClickListener() {
+                    .setTitle("Add Category").setNegativeButton("close", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
 
