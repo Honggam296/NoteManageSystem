@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Note Manage System</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Note Manage System</string>
+    <string name="nav_header_subtitle">hutech@hutech.edu.vn</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_priority">Priority</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_note">Note</string>
+    <string name="menu_editAcc">Edit Profile</string>
+    <string name="menu_pass">Change Pass</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="lb_menu">Account</string>
+
+    <string name="incorrectUserPass">Incorrect UserName Or PassWord</string>
+    <string name="inputUserNamePass">Input UserName Or Password</string>
+    <string name="lb_changeyourpass">Change Your PassWord</string>
+
+    //sign up
+    <string name="insert_full">Please Insert Full Your Information</string>
+    <string name="Create_Success">Create Success</string>
+    <string name="Create_Un_success">Create UnSuccess</string>
+    <string name="CheckYourPass">Please Check Your Password, Passwords are not the same</string>
+
+    //Login
+    <string name="et_UserName">Email</string>
+    <string name="et_PassWord">Password</string>
+    <string name="RememberCheckBox">Remember Me</string>
+
+    //change profile
+    <string name="lb_editProfile">Edit Profile</string>
+
+    //category
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">cancel</string>
+    <string name="add">add</string>
+    <string name="register">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="EnterYourFirstName">FirstName...</string>
+    <string name="EnterYourLastName">LastName...</string>
+    <string name="EnterYourEmail">Email...</string>
+    <string name="EnterYourPassWord">Password...</string>
+    <string name="ConfirmYourPassWord">Confirm Password...</string>
+    <string name="AlreadyHaveAccount">Already Have Account ! Login Here</string>
+
+    //note
+    <string-array name="category">
+        <item name="Working">Working</item>
+        <item name="Relax">Relax</item>
+        <item name="Study">Study</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item name="High">High</item>
+        <item name="Medium">Medium</item>
+        <item name="Low">Low</item>
+    </string-array>
+    <string-array name="status">
+        <item name="Pending">Pending</item>
+        <item name="Processing">Processing</item>
+        <item name="Done">Done</item>
+    </string-array>
+</resources>

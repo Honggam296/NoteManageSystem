@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="n17dtha4.notemanagesystem.model.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="n17dtha4.notemanagesystem.model.category.category"
+        android:label="@string/menu_category"
+        tools:layout="@layout/category_fragment" />
+
+    <fragment
+        android:id="@+id/nav_EDProfile"
+        android:name="n17dtha4.notemanagesystem.model.profile.profile"
+        android:label="@string/menu_editAcc"
+        tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="n17dtha4.notemanagesystem.model.note.note"
+        android:label="@string/menu_note"
+        tools:layout="@layout/note_fragment" />
+
+    <fragment
+        android:id="@+id/nav_priority"
+        android:name="n17dtha4.notemanagesystem.model.priority.priority"
+        android:label="@string/menu_priority"
+        tools:layout="@layout/priority_fragment" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="n17dtha4.notemanagesystem.model.status.status"
+        android:label="@string/menu_status"
+        tools:layout="@layout/status_fragment" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="n17dtha4.notemanagesystem.model.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_changepass"
+        android:name="n17dtha4.notemanagesystem.model.password.changepass"
+        android:label="@string/menu_pass"
+        tools:layout="@layout/password_fragment" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="n17dtha4.notemanagesystem.model.sideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slide" />
+</navigation>
