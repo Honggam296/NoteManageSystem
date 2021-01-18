@@ -21,7 +21,7 @@
 
     <string name="incorrectUserPass">Incorrect UserName Or PassWord</string>
     <string name="inputUserNamePass">Input UserName Or Password</string>
-    <string name="lb_changeyourpass">Change Your PassWord</string>
+    <string name="lb_changeyourpass">Change  New Password</string>
 
     //sign up
     <string name="insert_full">Please Insert Full Your Information</string>
@@ -44,11 +44,11 @@
     <string name="add">add</string>
     <string name="register">Register</string>
     <string name="btnLogin">Login</string>
-    <string name="EnterYourFirstName">FirstName...</string>
-    <string name="EnterYourLastName">LastName...</string>
-    <string name="EnterYourEmail">Email...</string>
-    <string name="EnterYourPassWord">Password...</string>
-    <string name="ConfirmYourPassWord">Confirm Password...</string>
+    <string name="EnterYourFirstName">FirstName</string>
+    <string name="EnterYourLastName">LastName</string>
+    <string name="EnterYourEmail">Email</string>
+    <string name="EnterYourPassWord">Password</string>
+    <string name="ConfirmYourPassWord">Confirm Password</string>
     <string name="AlreadyHaveAccount">Already Have Account ! Login Here</string>
 
     //note
